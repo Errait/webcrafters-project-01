@@ -6,6 +6,7 @@
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 16px;
     background-size: cover;
     background-position: center;
@@ -60,6 +61,11 @@
     width: 100%;
 }
 
+.natural-content{
+    padding: 0 16px;
+    
+}
+
 .natural-title {
     font-family: var(--font-primary);
     font-weight: 600;
@@ -94,11 +100,9 @@
     line-height: 1.6;
     text-align: center;
     color: #fff;
-    margin: 0 auto;
     max-width: 550px;
     margin: 0 auto;
     overflow-wrap: break-word;
-    hyphens: auto;
 
 }
 
@@ -120,6 +124,7 @@
 .natural-content{
     max-width: 600px;
     margin: 0 auto;
+    
 }
 
 .natural-title {
