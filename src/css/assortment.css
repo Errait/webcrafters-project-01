@@ -27,10 +27,23 @@ min-width: 288px;
     gap: 40px;
 
 }
+.picture-container {
+    display: block;
+    overflow: hidden;
+    border-radius: 32px;
+}
+.assortment-image {
+    border-radius: 32px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
 .assortment-item {
     display: flex;
     flex-direction: column;
-
+    overflow: hidden;
+    border-top-left-radius:32px; 
+     border-top-left-radius: 32px ;
 }
 
 .assortment-list-title {
@@ -72,9 +85,12 @@ min-width: 288px;
     height: 40px;
     margin-top: auto;
 }
+
+
+
  
 .portfolio-image {
-border-radius: 9%;
+border-radius: 32px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -102,7 +118,7 @@ border-radius: 9%;
 
 .assortment-list {
     column-gap: 24px;
-        row-gap: 64px;
+    row-gap: 64px;
 }
 .centered-content {
 max-width: 310px;
@@ -116,8 +132,17 @@ max-width: 310px;
 
   }
 }
+.assortment-button:hover,
+.assortment-button:focus {
+opacity: 0.5;
 
-             
+outline: none;
+}
+.assortment-button:active {
+color: var(--color-emerald-darkest);
+border-color: var(--color-emerald-darkest);
+opacity: 0.6;
+}
 
 
 

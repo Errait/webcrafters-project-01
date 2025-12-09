@@ -2,12 +2,16 @@
     position: relative;
     background:
         linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-        url("../images/mobile-feature@1x.jpg") center / cover no-repeat;
+        url("../images/mobile-feature@1x.jpg");
     color: #fff;
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 0 16px;
-   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 /* Mobile 2x */
@@ -15,7 +19,10 @@
     .natural-section {
     background:
         linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-            url("../images/mobile-feature@2x.jpg") center / cover no-repeat;
+            url("../images/mobile-feature@2x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
 }
 
@@ -23,9 +30,12 @@
     .natural-section {
     background:
                 linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-                url("../images/tablet-feature@2x.jpg") center / cover no-repeat;
+                url("../images/tablet-feature@2x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 0 32px;
-            }
+    }
 }
 
 /* Desktop */
@@ -33,10 +43,13 @@
 @media (min-width: 1440px) and (min-resolution: 2dppx) {
     .natural-section {
     background:
-            linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-            url("../images/desktop-feature@2x.jpg") center / cover no-repeat;
+            linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 10%),
+            url("../images/desktop-feature@2x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 0 64px;
-        }
+    }
 }
 
 .natural-container {
@@ -46,6 +59,11 @@
     margin: 0 auto;
     padding: 64px 0;
     width: 100%;
+}
+
+.natural-content{
+    padding: 0 16px;
+    
 }
 
 .natural-title {
@@ -82,84 +100,83 @@
     line-height: 1.6;
     text-align: center;
     color: #fff;
-    margin: 0 auto;
     max-width: 550px;
     margin: 0 auto;
     overflow-wrap: break-word;
-    hyphens: auto;
 
 }
 
 @media (min-width: 768px) {
 
-    .natural-section {
-    
-            background:
-                linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-                url("../images/tablet-feature@1x.jpg") center / cover no-repeat;
-    
-            /* min-height: 500px; */
-            
-        }
-
-    .natural-container {
-        padding: 80px 0px;
-             
-}
-    
-    .natural-content{
-         max-width: 600px;
-        margin: 0 auto;
-}
-    .natural-title {
-        font-size: 16px;
-        margin-bottom: 16px;
+.natural-section {
+    background:
+           linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
+            url("../images/tablet-feature@1x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     }
 
-    .natural-subtitle {
-        font-size: 36px;
-        margin-bottom: 24px;
-        max-width: 500px;
+.natural-container {
+    padding: 80px 0px;
+}
+    
+.natural-content{
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.natural-title {
+    font-size: 16px;
+    margin-bottom: 16px;
     }
 
-    .natural-description {
-        font-size: 18px;
-        max-width: 500px;
+.natural-subtitle {
+    font-size: 36px;
+    margin-bottom: 24px;
+    max-width: 500px;
+}
+
+.natural-description {
+    font-size: 18px;
+    max-width: 500px;
     }
 }
 
 @media (min-width: 1440px) {
 
-    .natural-section {
-            background:
-                linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 40%),
-                url("../images/desktop-feature@1x.jpg") center / cover no-repeat;
-       
-        /* min-height: 700px; */
-        }
+.natural-section {
+    background:
+                linear-gradient(135deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 60%),
+                url("../images/desktop-feature@1x.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
     
-   .natural-content {
-       max-width: 700px;
+.natural-content {
+    max-width: 700px;
    }
 
-    .natural-container {
-        padding: 112px 0px;
+.natural-container {
+    padding: 112px 0px;
     }
 
-    .natural-title {
-        font-size: 16px;
-        margin-bottom: 16px;
+.natural-title {
+    font-size: 16px;
+    margin-bottom: 16px;
     }
 
-    .natural-subtitle {
-        font-size: 56px;
-        margin-bottom: 24px;
-        max-width: 600px;
+.natural-subtitle {
+    font-size: 56px;
+    margin-bottom: 24px;
+    max-width: 600px;
     }
 
-    .natural-description {
+.natural-description {
             
-            font-size: 18px;
-            max-width: 550px;
-        }
+    font-size: 18px;
+    max-width: 550px;
+    }
 }
